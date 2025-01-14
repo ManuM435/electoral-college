@@ -8,12 +8,15 @@ const Home: React.FC = () => {
       <p>aca va el mapita</p>
       <div>
         <h2 className="text-xl font-bold mt-24">Some Popular Distributions</h2>
-        <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-5 gap-6 mt-4">
+        <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-6 mt-4">
           <li className="bg-blue-200 p-4 rounded-lg w-full text-center">Donald's Trifecta</li>
           <li className="bg-blue-200 p-4 rounded-lg w-full text-center">Puerto Rican Statehood</li>
           <li className="bg-blue-200 p-4 rounded-lg w-full text-center">Continental Only</li>
           <li className="bg-blue-200 p-4 rounded-lg w-full text-center">North American Power!</li>
           <li className="bg-blue-200 p-4 rounded-lg w-full text-center">The OG 13</li>
+          <li className="bg-blue-200 p-4 rounded-lg w-full text-center">The True Americas</li>
+          <li className="bg-blue-200 p-4 rounded-lg w-full text-center">NATO Alliance</li>
+          <li className="bg-blue-200 p-4 rounded-lg w-full text-center">GLOBAL DOMINATION</li>
         </ul>
       </div>
     </div>
