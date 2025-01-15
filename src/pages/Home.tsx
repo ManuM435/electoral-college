@@ -1,4 +1,6 @@
 import React from 'react';
+import ThumbsupIcon from '../assets/thumbsup.svg';
+import ThumbsdownIcon from '../assets/thumbsdown.svg';
 
 const Home: React.FC = () => {
   return (
@@ -9,15 +11,23 @@ const Home: React.FC = () => {
       <div>
         <h2 className="text-xl font-bold mt-24">Some Popular Distributions</h2>
         <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-6 mt-4">
-          <li className="bg-blue-200 p-4 rounded-lg w-full text-center">Donald's Trifecta</li>
-          <li className="bg-blue-200 p-4 rounded-lg w-full text-center">Puerto Rican Statehood</li>
-          <li className="bg-blue-200 p-4 rounded-lg w-full text-center">Continental Only</li>
-          <li className="bg-blue-200 p-4 rounded-lg w-full text-center">North American Power!</li>
-          <li className="bg-blue-200 p-4 rounded-lg w-full text-center">The OG 13</li>
-          <li className="bg-blue-200 p-4 rounded-lg w-full text-center">The True Americas</li>
-          <li className="bg-blue-200 p-4 rounded-lg w-full text-center">NATO Alliance</li>
-          <li className="bg-blue-200 p-4 rounded-lg w-full text-center">GLOBAL DOMINATION</li>
+            <li className="bg-blue-200 p-4 rounded-lg w-full text-center font-semibold">Trump's Trifecta</li>
+            <li className="bg-blue-200 p-4 rounded-lg w-full text-center font-semibold">Puerto Rican Statehood</li>
+            <li className="bg-blue-200 p-4 rounded-lg w-full text-center font-semibold">Continental Only</li>
+            <li className="bg-blue-200 p-4 rounded-lg w-full text-center font-semibold">North American Power!</li>
+            <li className="bg-blue-200 p-4 rounded-lg w-full text-center font-semibold">The OG 13</li>
+            <li className="bg-blue-200 p-4 rounded-lg w-full text-center font-semibold">The True Americas</li>
+            <li className="bg-blue-200 p-4 rounded-lg w-full text-center font-semibold">NATO Alliance</li>
+            <li className="bg-blue-200 p-4 rounded-lg w-full text-center font-semibold">GLOBAL DOMINATION</li>
         </ul>
+      </div>
+      <div className="flex justify-center mt-8">
+        <button className="bg-green-500 text-white p-2 rounded-full mx-2">
+          <img src={ThumbsupIcon} alt="Thumbs Up" className="w-6 h-6" />
+        </button>
+        <button className="bg-red-500 text-white p-2 rounded-full mx-2">
+          <img src={ThumbsdownIcon} alt="Thumbs Down" className="w-6 h-6" />
+        </button>
       </div>
     </div>
   );
