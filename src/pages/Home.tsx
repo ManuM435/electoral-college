@@ -4,10 +4,10 @@ import ThumbsdownIcon from '../assets/thumbsdown.svg';
 
 const Home: React.FC = () => {
   return (
-    <div className="container mx-auto p-4 mt-16 w-full">
+    <div className="w-full px-4 mt-16">
       <h1 className="text-2xl font-bold mb-4">Select the Countries to be added as States!</h1>
       <h3 className="text-lg font-semibold mb-4">And see how the Electoral College would look</h3>
-      <p>aca va el mapita</p>
+      <p>placeholder text for the map</p>
       <div>
         <h2 className="text-xl font-bold mt-24">Some Popular Distributions</h2>
         <ul className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 xl:grid-cols-4 gap-6 mt-4">
